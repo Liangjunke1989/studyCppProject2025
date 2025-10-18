@@ -1,0 +1,3 @@
+/Users/liangjunke/LJK_Workspace/LJK_CPPWorkspace/cmake-build-debug/CMakeFiles/LJK_CPPWorkspace.dir
+/Users/liangjunke/LJK_Workspace/LJK_CPPWorkspace/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/liangjunke/LJK_Workspace/LJK_CPPWorkspace/cmake-build-debug/CMakeFiles/rebuild_cache.dir
