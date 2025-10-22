@@ -49,12 +49,12 @@ cmake_ninja_workdir = /Users/liangjunke/LJK_Workspace/LJK_CPPWorkspace/cmake-bui
 
 build cmake_object_order_depends_target_LJK_CPPWorkspace: phony || .
 
-build CMakeFiles/LJK_CPPWorkspace.dir/main.cpp.o: CXX_COMPILER__LJK_CPPWorkspace_unscanned_Debug /Users/liangjunke/LJK_Workspace/LJK_CPPWorkspace/main.cpp || cmake_object_order_depends_target_LJK_CPPWorkspace
+build CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出/01_IO.cpp.o: CXX_COMPILER__LJK_CPPWorkspace_unscanned_Debug /Users/liangjunke/LJK_Workspace/LJK_CPPWorkspace/Day01_初识输入输出/01_IO.cpp || cmake_object_order_depends_target_LJK_CPPWorkspace
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/LJK_CPPWorkspace.dir/main.cpp.o.d
+  DEP_FILE = CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出/01_IO.cpp.o.d
   FLAGS = -g -std=gnu++20 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/LJK_CPPWorkspace.dir
-  OBJECT_FILE_DIR = CMakeFiles/LJK_CPPWorkspace.dir
+  OBJECT_FILE_DIR = CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出
 
 
 # =============================================================================
@@ -64,7 +64,7 @@ build CMakeFiles/LJK_CPPWorkspace.dir/main.cpp.o: CXX_COMPILER__LJK_CPPWorkspace
 #############################################
 # Link the executable LJK_CPPWorkspace
 
-build LJK_CPPWorkspace: CXX_EXECUTABLE_LINKER__LJK_CPPWorkspace_Debug CMakeFiles/LJK_CPPWorkspace.dir/main.cpp.o
+build LJK_CPPWorkspace: CXX_EXECUTABLE_LINKER__LJK_CPPWorkspace_Debug CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出/01_IO.cpp.o
   CONFIG = Debug
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/LJK_CPPWorkspace.dir
