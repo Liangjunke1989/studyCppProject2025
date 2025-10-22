@@ -3,4 +3,7 @@ project(LJK_CPPWorkspace)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(LJK_CPPWorkspace Day01_初识输入输出/01_IO.cpp)
+add_executable(LJK_CPPWorkspace Day01_初识输入输出/01_IO.cpp
+        Day01_初识输入输出/02_character.cpp
+        Day01_初识输入输出/02_character.h
+        Day01_初识输入输出/03_const.cpp)
