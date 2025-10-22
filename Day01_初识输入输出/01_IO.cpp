@@ -26,7 +26,9 @@ void testIO() {//函数定义
     cout << "Please enter your name: ";
     cin >> name;
     cout << "Please enter your age: ";
-    cin >> age;//控程序获取输入  回车后，制台权限交给程序。继续运行. ------“用户输入缓冲区”，程序与“用户输入缓冲区”打交道，不直接与用户打交道
+    //控程序获取输入
+    cin >> age; //回车后，制台权限交给程序。继续运行.------“用户输入缓冲区”，程序与“用户输入缓冲区”打交道，不直接与用户打交道
+
     cout << "Your name is: " << name << "，\t";
     cout << "Your age is: " << age << endl;
 }
