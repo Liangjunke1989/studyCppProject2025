@@ -20,7 +20,7 @@ void test_getchar() {
     cout << endl;
     cout << putchar(c)<< endl;//先打印c,再打印putchar？？
     //执行过程：
-    //putchar(c) 输出字符 A 到屏幕
+    //putchar(c) 输出字符 A 到屏幕,函数副作用，副作用先行: putchar(c) 立即将字符输出到屏幕（这是函数的副作用）
     //putchar(c) 返回整数值 65
     //cout 输出 65 并换行
     cout << "-------putchar_char--------- " << endl;
@@ -35,9 +35,9 @@ void test_getchar() {
     } //循环结束后，c 的值是 '\n'（换行符）
 }
 
-int main() {
-    cout << "请输入一个字符: ";
-    test_getchar();
-    cout << "请再输入一个字符: ";
-    test_getchar();
-}
+// int main() {
+//     cout << "请输入一个字符: ";
+//     test_getchar();
+//     cout << "请再输入一个字符: ";
+//     test_getchar();
+// }
