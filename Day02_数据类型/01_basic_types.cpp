@@ -18,6 +18,7 @@
 #include <iostream>
 using namespace std;
 void basic_types() {
+    cout << "-----------------1、字符串常用类型---------------------"<< endl;
     wchar_t a=L'a';
     wcout << a << endl;
     cout << sizeof(a) << endl;
@@ -26,6 +27,6 @@ void basic_types() {
     char32_t c=U'c';
     cout << sizeof(c) << endl;
 }
-// int main() {
-//     basic_types();
-// }
+int main() {
+    basic_types();
+}

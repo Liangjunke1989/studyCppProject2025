@@ -17,3 +17,33 @@ public:
         cout << a << endl;
     }
 };
+//枚举类型
+enum class Color {
+    red ,
+    blue,
+    green
+};
+//union联合体??
+ostream& operator<<(ostream& os, Color color) {
+    switch (color) {
+        case Color::red:
+            os << "red";
+            break;
+        case Color::green:
+            os << "green";
+            break;
+        case Color::blue:
+            os << "blue";
+            break;
+    }
+    return os;
+}
+//结构体
+struct TestStruct {
+    
+};
+// int main() {
+//     Color color = Color::red;
+//     cout << color << endl;
+//     return 0;
+// }
