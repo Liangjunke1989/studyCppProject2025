@@ -30,6 +30,10 @@ using namespace std;
         指针类型：T*、函数指针、成员指针
         数组类型：T[]、T[n]
         函数类型：函数签名类型
+    类型修饰符
+        存储类别：auto、register、static、extern、mutable
+        访问控制：public、private、protected
+        其他修饰符：const、volatile、constexpr
 */
 //--------------------------01、引用类型-----------------------------------------
 //左值引用
@@ -66,15 +70,7 @@ void Universal_Reference() {
     cout << "&b = " << &b << endl;
 
 }
-//--------------------------02、指针类型-----------------------------------------
-void T_Pointer() {}
-void Function_Pointer() {}
-void Array_Pointer() {}
-void Function_Signature_Pointer() {}
-//--------------------------03、数组类型-----------------------------------------
-void Array_Type() {}
-//--------------------------04、函数类型-----------------------------------------
-void Function_Type() {}
+
 
 // int main() {
 //     //Lvalue_Reference();

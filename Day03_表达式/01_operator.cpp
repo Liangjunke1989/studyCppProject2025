@@ -78,11 +78,11 @@ void bitwise_operators() {
     cout << "右移 a>>1: " << bitset<8>(a >> 1) << "\t二进制位：" << (a >> 1) << endl; // 0010 = 2
 }
 
-int main() {
-    //arithmetic_operator();
-    //logical_operator();
-    //relational_operators();
-    //assignment_operator();
-    bitwise_operators();
-    return 0;
-}
+// int main() {
+//     //arithmetic_operator();
+//     //logical_operator();
+//     //relational_operators();
+//     //assignment_operator();
+//     bitwise_operators();
+//     return 0;
+// }

@@ -17,15 +17,10 @@
  */
 #include <iostream>
 using namespace std;
+void test_goto() {
+      // goto 语句
+
+}
 // int main() {
-//       int a = 10;
-//       if (a < 0) {
-//             goto error_label;
-//       }
-//       cout << "正常执行" << endl;
-//       return 0;
 //
-//       error_label:
-//           cout << "错误处理" << endl;
-//       return -1;
 // }

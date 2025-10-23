@@ -15,3 +15,17 @@
         访问控制：public、private、protected
         其他修饰符：const、volatile、constexpr
 */
+#include <iostream>
+using namespace std;
+void basic_types() {
+    wchar_t a=L'a';
+    wcout << a << endl;
+    cout << sizeof(a) << endl;
+    char16_t b=u'b';
+    cout << sizeof(b) << endl;
+    char32_t c=U'c';
+    cout << sizeof(c) << endl;
+}
+// int main() {
+//     basic_types();
+// }

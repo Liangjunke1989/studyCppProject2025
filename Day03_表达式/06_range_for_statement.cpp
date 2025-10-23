@@ -25,13 +25,17 @@ using namespace std;
 void range_for_statement() {
     vector<int> numbers = {1, 2, 3, 4, 5}; // 定义一个向量
     //范围变量必须是引用类型，这样才能对元素执行写操作
-    for (auto &r : numbers) {
+    for (auto &r : numbers) { //&r 必须是引用类型，这样才能对元素执行写操作!!!
         r *= 2;
+        cout << "r:"<<r << endl;
     }
     //等价于：
-    for (auto i = numbers.begin(); i != numbers.end(); ++i) {
-        auto &r = *i;//r 必须是引用类型，这样才能对元素执行写操作？？
-        r *= 2;
-    }
+    // for (auto i = numbers.begin(); i != numbers.end(); ++i) {
+    //     auto &r = *i;//r 必须是引用类型，这样才能对元素执行写操作？？
+    //     r *= 2;
+    // }
 }
+// int main() {
+//     range_for_statement();
+// }
 

@@ -10,3 +10,11 @@
 */
 #include <iostream>
 using namespace std;
+void for_statement() {
+  for (int i = 0; i < 10; i++) {
+      cout << "i："<< i << endl;
+  }
+}
+// int main() {
+//   for_statement();
+// }
