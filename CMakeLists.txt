@@ -26,4 +26,5 @@ add_executable(LJK_CPPWorkspace Day01_初识输入输出/01_IO.cpp
         Day02_数据类型/02_compound_types_04_funtion_type.cpp
         Day02_数据类型/03_derived_types_02_enum&enum_class.cpp
         "Day02_数据类型/03_derived_types_03_union .cpp"
+        "Day04_函数/02_function & pointer.cpp"
 )

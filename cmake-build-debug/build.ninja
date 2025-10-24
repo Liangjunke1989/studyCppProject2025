@@ -208,6 +208,14 @@ build CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/03_derived_types_03_uni
   OBJECT_DIR = CMakeFiles/LJK_CPPWorkspace.dir
   OBJECT_FILE_DIR = CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型
 
+build CMakeFiles/LJK_CPPWorkspace.dir/Day04_函数/02_function_&_pointer.cpp.o: CXX_COMPILER__LJK_CPPWorkspace_unscanned_Debug /Users/liangjunke/LJK_Workspace/LJK_CPPWorkspace/Day04_函数/02_function$ &$ pointer.cpp || cmake_object_order_depends_target_LJK_CPPWorkspace
+  CONFIG = Debug
+  DEP_FILE = "CMakeFiles/LJK_CPPWorkspace.dir/Day04_函数/02_function_&_pointer.cpp.o.d"
+  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/LJK_CPPWorkspace.dir
+  OBJECT_FILE_DIR = CMakeFiles/LJK_CPPWorkspace.dir/Day04_函数
+  depfile = CMakeFiles/LJK_CPPWorkspace.dir/Day04_函数/02_function_&_pointer.cpp.o.d
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LJK_CPPWorkspace
@@ -216,7 +224,7 @@ build CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/03_derived_types_03_uni
 #############################################
 # Link the executable LJK_CPPWorkspace
 
-build LJK_CPPWorkspace: CXX_EXECUTABLE_LINKER__LJK_CPPWorkspace_Debug CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出/01_IO.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出/02_character.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出/03_const.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出/04_scanf&printf.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出/05_getchar.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/01_operator.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/01_basic_types.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/02_compound_types_01_reference_type.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/03_derived_types_01_class&struct_.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/02_if_statement.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/03_switch_statement.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/04_while_statement.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/05_for_statement.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/06_range_for_statement.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/07_break&continue&goto.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/08_try_block_&_throw_expression.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day04_函数/01_function.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/02_compound_types_02_pointer_type.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/02_compound_types_03_array_type.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/02_compound_types_04_funtion_type.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/03_derived_types_02_enum&enum_class.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/03_derived_types_03_union_.cpp.o
+build LJK_CPPWorkspace: CXX_EXECUTABLE_LINKER__LJK_CPPWorkspace_Debug CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出/01_IO.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出/02_character.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出/03_const.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出/04_scanf&printf.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day01_初识输入输出/05_getchar.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/01_operator.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/01_basic_types.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/02_compound_types_01_reference_type.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/03_derived_types_01_class&struct_.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/02_if_statement.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/03_switch_statement.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/04_while_statement.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/05_for_statement.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/06_range_for_statement.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/07_break&continue&goto.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day03_表达式/08_try_block_&_throw_expression.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day04_函数/01_function.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/02_compound_types_02_pointer_type.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/02_compound_types_03_array_type.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/02_compound_types_04_funtion_type.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/03_derived_types_02_enum&enum_class.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day02_数据类型/03_derived_types_03_union_.cpp.o CMakeFiles/LJK_CPPWorkspace.dir/Day04_函数/02_function_&_pointer.cpp.o
   CONFIG = Debug
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/LJK_CPPWorkspace.dir

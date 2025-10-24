@@ -27,6 +27,6 @@ void basic_types() {
     char32_t c=U'c';
     cout << sizeof(c) << endl;
 }
-int main() {
-    basic_types();
-}
+// int main() {
+//     basic_types();
+// }
