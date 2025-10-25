@@ -164,10 +164,55 @@ void Array_Pointer() {
     cout << "p:" << p << endl;//p:输出指针所保存的数组a的起始地址
     cout << "*p:" << *p << endl;//*p:取指针所保存的数组a的起始地址所对应数据
 }
-//函数签名指针
-void Function_Signature_Pointer() {
+class TestClass {
+    //函数签名指针
+    /*
+        1. 基本概念
+            函数签名指针是指向具有特定函数签名（函数类型）的指针，
+            使用场景：回调函数、策略模式、函数表等
+        2. 声明语法
+        语法：返回值类型 (*指针名)(参数列表)
+        它包含了函数的：
+                返回值类型
+                参数类型列表
+                参数个数和顺序
+        int (*func_ptr)(int, int);  // 指向接受两个int参数并返回int的函数
+        void (*print_ptr)(const char*);  // 指向接受const char*参数无返回值的函数
+     */
 
-}
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    int subtract(int a, int b) {
+        return a - b;
+    }
+
+    // 函数签名指针的使用
+    // 函数指针
+    // int(TestClass::*function1)(int, int)=&TestClass::add;
+    // int(TestClass::*function2)(int, int)=&TestClass::subtract;
+    // void testOperation() {
+    //     TestClass obj;
+    //     int result1 = (obj.*function1)(10, 5);
+    //     int result2 = (obj.*function2)(10, 5);
+    //     cout << "Result1 of operation: " << result1 << endl;
+    //     cout << "Result2 of operation: " << result2 << endl;
+    // }
+    // 修复：正确声明并初始化指向成员函数的指针!!!!!
+    using OperationFunc = int (TestClass::*)(int, int);//定义函数签名指针
+    OperationFunc operation1 = &TestClass::add;  // 正确获取成员函数地址
+    OperationFunc operation2 = &TestClass::subtract;
+    void testOperation2() {
+        TestClass obj;//创建对象
+        int result1 = (obj.*operation1)(10, 5);  // 通过对象调用成员函数指针
+        int result2 = (obj.*operation2)(10, 5);
+
+        cout << "Result1 of operation: " << result1 << endl;
+        cout << "Result2 of operation: " << result2 << endl;
+    }
+};
+
 
 int main() {
     //T_Pointer();
